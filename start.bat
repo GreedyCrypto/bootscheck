@@ -1,4 +1,5 @@
 @echo off
+mkdir old
 move new.txt ./old/
 gethtml.exe
 rename index.html new.txt
